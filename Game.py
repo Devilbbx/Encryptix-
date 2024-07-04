@@ -16,7 +16,7 @@ def determine_winner(user_choice, computer_choice):
     else:
         return "computer"
 
-# Function to play the game
+# Function to store the score game
 def play_game():
     user_score = 0
     computer_score = 0
