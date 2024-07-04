@@ -24,7 +24,7 @@ def play_game():
     while True:
         user_choice = input("Choose rock, paper, or scissors: ").lower()
         if user_choice not in ["rock", "paper", "scissors"]:
-            print("Invalid choice. Please choose rock, paper, or scissors.")
+            print("Invalid choice")
             continue
 
         computer_choice = get_computer_choice()
